@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.hero{
+    height: 100vh;
+    background-image: url("./images/model-s.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.Upper{
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+.Lower{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+.btn1{
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    margin: 1rem;
+    width: 10rem;
+    border-radius: 20px;
+    font-size: 16px;
+}
+.btn2{
+    background-color:white;
+    color: black;
+    padding: 1rem;
+    margin: 1rem;
+    width: 10rem;
+    border-radius: 20px;
+    font-size: 16px;
+
+}
+h2{
+    font-size: 30px;
+}
